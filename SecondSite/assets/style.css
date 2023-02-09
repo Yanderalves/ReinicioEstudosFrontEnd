@@ -1,0 +1,49 @@
+img{
+    height: 200px;
+    width: 200px;
+    border-radius:100% ;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 60vw;
+}
+
+.instagram{
+    list-style-image: url(instagram.png);
+}
+
+.github{
+    list-style-image: url(github.png);
+}
+
+.linkedin{
+    list-style-image: url(linkedin.png);
+}
+
+.container-redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.negrito{
+    color: black;
+    font-weight: bolder;
+}
